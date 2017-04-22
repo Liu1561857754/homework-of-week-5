@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		qietu
+	</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/qietu.css">
+	<script src="https://redrock.cqupt.edu.cn/exam-mock/mock-min.js"></script>
+    <script src="https://redrock.cqupt.edu.cn/exam-mock/mock-data.js"></script>
+    <script type="text/javascript" src="http://libs.baidu.com/jquery/1.9.1/jquery.js"></script>
+</head>
+<body>
+    <div id="all">
+    <div id="daohang">
+    	<div id="toutiao">
+    		<a id="toutiao1">头条</a>
+    	</div>
+    	<div id="redT">
+    	</div>
+    	<div id="yule">
+    		<a id="yule1">娱乐</a>
+    	</div>
+        <div id="tiyu">
+    		<a id="tiyu1">体育</a>
+    	</div>
+    	<div id="qiche">
+    	    <a id="qiche1">汽车</a>
+    	</div>
+    	<div id="keji">
+    		<a id="keji1">科技</a>
+    	</div>
+    	<div id="kuohao">
+    	   <a href="paixu.html"><img src="./img/kuohao.png"></a>
+    	</div>
+    </div>
+    <div id="container">
+    	<div id="list" style="left: 0px;">
+    	<img src="./img/lunbo1.png">
+    	<img src="./img/lunbo2.png">
+    	<img src="./img/lunbo3.png">
+       </div>
+       <div id="buttons">
+       	 <span index="1" class="on" id="button1"></span>
+		 <span index="2" id="button2"></span>
+		 <span index="3" id="button3"></span>
+       </div>
+    </div>
+    <div id="new_1">
+        <img id="new_1_img" src="#">
+    	<ul id="new_1_title"></ul>
+    	<ul id="new_1_des"></ul>
+    	<ul id="new_1_post"></ul>
+    	<ul id="new_1_type"></ul>
+    </div>
+     <div id="new_2">
+        <img id="new_2_img" src="#">
+    	<ul id="new_2_title"></ul>
+    	<ul id="new_2_des"></ul>
+    	<ul id="new_2_post"></ul>
+    	<ul id="new_2_type"></ul>
+    </div>
+    </div>
+</body>
+<script type="text/javascript" src="js/qietu.js"></script>
+<script type="text/javascript">
+ var title =  document.getElementById('title');
+   $.ajax({
+   	type:"get",
+   	url:"/news?num=2",
+   	success:function(res){
+   		var m = JSON.parse(res);
+   		$("#new_1_title").html(m[0].title);
+   		var img1 = document.querySelector('#new_1_img');
+   		img1.src = m[0].imgURL;
+   		$("#new_1_des").html(m[0].description);
+   		$("#new_1_post").html(m[0].post + '跟帖');
+   		$("#new_1_type").html(m[0].type);
+   		$("#new_2_title").html(m[1].title);
+   		var img2 = document.querySelector('#new_2_img');
+   		img2.src = m[1].imgURL;
+   		$("#new_2_des").html(m[1].description);
+   		$("#new_2_post").html(m[1].post + '跟帖');
+   		$("#new_2_type").html(m[1].type);
+   	}
+   });
+</script>
+</html>
