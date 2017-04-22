@@ -1,0 +1,249 @@
+a
+{
+	text-decoration: none;
+	color: #5B5B5B;
+}
+#all
+{
+	width: 60rem;
+}
+#daohang,#p2daohang
+{
+	position: absolute;
+	top: 0.0rem;
+	width: 60rem;
+	height: 5.6rem;
+	background-color: #e6e6e6;
+	
+}
+#redT
+{
+	position: absolute;
+	top: 5rem;
+	left: 5rem;
+	width: 100px;
+	height: 0.5rem;
+	background-color: red;
+}
+#toutiao
+{
+	position: absolute;
+	top: 0.25rem;
+	font-size: 50px;
+	left: 5rem;
+}
+#yule
+{
+	position: absolute;
+	top: 0.25rem;
+	font-size: 50px;
+	left: 15rem;
+}
+#tiyu
+{
+	position: absolute;
+	top: 0.25rem;
+	font-size: 50px;
+	left: 25rem;
+}
+#qiche
+{
+	position: absolute;
+	top: 0.25rem;
+	font-size: 50px;
+	left: 35rem;
+}
+#keji
+{
+	position: absolute;
+	top: 0.25rem;
+	font-size: 50px;
+	left: 45rem;
+}
+#kuohao
+{
+	position: absolute;
+	top: 1.25rem;
+	left: 52rem;
+	cursor: pointer;
+}
+#p2qiehuan
+{
+	font-size: 62px;
+	background-color: #e6e6e6;
+	color: #C9C9C9;
+}
+#p2tianjia1
+{
+	position: absolute;
+	top: 27.5rem;
+	height: 100px;
+	width: 980px;
+	background-color: #e6e6e6;
+}
+#p2tianjia
+{
+	/*position: relative;
+	top: 25.0rem;
+	left: -40rem;*/
+	font-size: 55px;
+	color: #C9C9C9;
+}
+#p2kuohao
+{
+	position: absolute;
+	top: 1.25rem;
+	left: 52rem;
+	cursor: pointer;
+}
+.p2bg
+{
+
+	position: relative;
+	top: 8.5rem;
+	font-size: 45px;
+	background-color: #FCFCFC;
+	float: left;
+	margin-left: 80px;
+	margin-top: 20px;
+	color: #5a5a5a;
+}
+#p2up,#p2down
+{
+	width: 800px;
+}
+.p2bg2
+{
+	position: relative;
+	top: 19.0rem;
+	font-size: 45px;
+	background-color: #f8f8f8;
+	float: left;
+	margin-left: 80px;
+	margin-top: 20px;
+	color: #5a5a5a;
+}
+#lunbo1 img
+{
+	float: right;
+}
+#list
+{
+	position: absolute;
+	top: 0rem;
+	left: 10px;
+}
+#container
+{
+	position: absolute;
+	top: 5.8rem;
+	left: 10px;
+	width: 60rem;
+	height: 550px;
+	overflow: hidden;
+}
+#buttons
+{
+	position: absolute;
+	top: 33rem;
+	left: 54.5rem;
+	width: 5.5rem;
+	height: 1rem;
+	z-index: 3;
+	bottom: 10px;
+}
+#buttons span
+{
+	cursor: pointer;
+	float: left;
+	height: 15px;
+	width: 15px;
+	margin-left: 10px;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	background: gray;
+}
+#buttons .on
+{
+	background-color: black;
+}
+#new_1
+{
+	position: absolute;
+	top: 680px;
+	left: 10px;
+	width: 60rem;
+	height: 10.0rem;
+}
+#new_1_img
+{
+	position: absolute;
+	top: 10px;
+	font-size: 10px;
+}
+#new_1_title
+{
+	position: absolute;
+	top: 0rem;
+	left: 16.5rem;
+	font-size: 30px;
+}
+#new_1_des
+{
+	position: absolute;
+	top: 6.5rem;
+	left: 16.5rem;
+}
+#new_1_post
+{
+	position: absolute;
+	top: 9.3rem;
+	left: 45rem;
+
+}
+#new_1_type
+{
+	position: absolute;
+	top:9.3rem;
+	left: 54rem;
+}
+#new_2
+{
+	position: absolute;
+	top: 900px;
+	left: 10px;
+	width: 60rem;
+	height: 10.0rem;
+}
+#new_2_img
+{
+	position: absolute;
+	top: 10px;
+	font-size: 10px;
+}
+#new_2_title
+{
+	position: absolute;
+	top: 0rem;
+	left: 16.5rem;
+	font-size: 30px;
+}
+#new_2_des
+{
+	position: absolute;
+	top: 6.5rem;
+	left: 16.5rem;
+}
+#new_2_post
+{
+	position: absolute;
+	top: 9.3rem;
+	left: 45rem;
+
+}
+#new_2_type
+{
+	position: absolute;
+	top:9.3rem;
+	left: 54rem;
+}
